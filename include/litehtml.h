@@ -1,9 +1,10 @@
-#pragma once
+#ifndef LITEHTML_H
+#define LITEHTML_H
 
-#include "../src/html.h"
-#include "../src/document.h"
-#include "../src/html_tag.h"
-#include "../src/stylesheet.h"
-#include "../src/stylesheet.h"
-#include "../src/element.h"
-#include "../src/html_tag.h"
+#include <litehtml/html.h>
+#include <litehtml/document.h>
+#include <litehtml/html_tag.h>
+#include <litehtml/stylesheet.h>
+#include <litehtml/element.h>
+
+#endif  // LITEHTML_H
